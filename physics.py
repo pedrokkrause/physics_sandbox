@@ -22,6 +22,7 @@ class Particle:
             self.type = None
 
     def update(self, dt):
+        # Semi-implicit Euler method
         self.vel = self.vel + self.acc * dt
         self.pos = self.pos + self.vel * dt
 
