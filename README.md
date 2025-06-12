@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/303774ed-6e29-48f2-ba16-f0718d8c103e
 ## Features
 
 * **Pure Newtonian Core:** Model any system using point masses and springs; no rigid body equations needed.
-* **Custom Forces:** Add external fields or bespoke force laws with simple Python functions.
+* **Custom Forces:** Add external fields or custom force laws with simple Python functions.
 * **Emergent Rotational Motion:** See phenomena like precession, nutation, and tumbling arise from basic principles.
 * **VPython Visualization:** Real-time 3D viewer for interactive exploration.
 * **Energy Tracking:** Monitor kinetic and potential energy for checks and analysis.
@@ -20,13 +20,32 @@ https://github.com/user-attachments/assets/303774ed-6e29-48f2-ba16-f0718d8c103e
 
 ## Installation
 
+**Option 1: Download ZIP**
+
+1. Go to [the repository page](https://github.com/pedrokkrause/physics_sandbox).
+2. Click the green **Code** button, then choose **Download ZIP**.
+3. Extract the ZIP file to a folder on your computer.
+4. Open that folder in your terminal or command prompt.
+
+**Option 2: Using Git**
+
 ```bash
 git clone https://github.com/your-username/physics_sandbox.git
 cd physics_sandbox
+```
+
+**Install Required Python Packages**
+
+You need [Python](https://www.python.org/downloads/) (version 3.7 or higher recommended).
+Install the required packages with:
+
+```bash
 pip install numpy vpython
 ```
 
-> *Note: VPython is only needed for visualization. You can use the core engine without it.*
+*(If you see an error, try `pip3` instead of `pip`.)*
+
+> **Note:** VPython is only needed for visualization. You can run simulations without graphics if you prefer.
 
 ---
 
@@ -104,7 +123,7 @@ This repository includes several self-contained example scripts that illustrate 
 
 | Example File          | Demonstrates                                      |
 | --------------------- | ------------------------------------------------- |
-| `coulomb_force.py`    | Inverse-square forces; stable & unstable orbits   |
+| `coulomb_force.py`    | Inverse-square forces                             |
 | `dzhanibekov.py`      | Intermediate-axis theorem (Dzhanibekov effect)    |
 | `wave_propagation.py` | 2D wave propagation in a mass-spring lattice      |
 | `gyroscope.py`        | Gyroscopic precession & nutation                  |
@@ -115,6 +134,8 @@ Run any script with:
 ```bash
 python <example_file>.py
 ```
+
+> **Note:** The example scripts assume `physics.py` and `visualization.py` are in the same folder as the script you’re running.
 
 ---
 
