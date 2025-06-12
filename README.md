@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/303774ed-6e29-48f2-ba16-f0718d8c103e
 **Option 2: Using Git**
 
 ```bash
-git clone https://github.com/your-username/physics_sandbox.git
+git clone https://github.com/pedrokkrause/physics_sandbox.git
 cd physics_sandbox
 ```
 
