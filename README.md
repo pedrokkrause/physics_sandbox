@@ -1,6 +1,6 @@
 # Physics Sandbox
 
-**Physics Sandbox** is a minimal, extensible Python engine for simulating classical mechanics using only Newton’s laws. Build particle–spring systems, add custom forces, and watch complex rotational behaviors—like precession, nutation, and the intermediate-axis theorem—emerge naturally, without directly using the formulas of rotational mechanics.
+**Physics Sandbox** is a minimal, extensible Python engine for simulating classical mechanics using only Newton’s laws. Build particle–spring systems, add custom forces, and watch complex rotational behaviors - like precession, nutation, and the intermediate-axis theorem - emerge naturally, without directly using the formulas of rotational mechanics.
 
 https://github.com/user-attachments/assets/303774ed-6e29-48f2-ba16-f0718d8c103e
 
